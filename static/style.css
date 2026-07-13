@@ -1,0 +1,308 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==========================
+   BODY
+========================== */
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#4facfe,#00c6fb);
+    padding:30px;
+}
+
+/* ==========================
+   MAIN CARD
+========================== */
+
+.container{
+
+    width:500px;
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,0.18);
+
+}
+
+/* ==========================
+   HEADING
+========================== */
+
+.container h1{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#17203d;
+
+    margin-bottom:10px;
+
+}
+
+/* ==========================
+   SUBTITLE
+========================== */
+
+.subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+    font-size:16px;
+
+}
+
+/* ==========================
+   LABELS
+========================== */
+
+label{
+
+    display:block;
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:#444;
+
+}
+
+/* ==========================
+   INPUTS
+========================== */
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:2px solid #ddd;
+
+    border-radius:12px;
+
+    font-size:17px;
+
+    transition:.3s;
+
+    background:#fafafa;
+
+}
+
+input:focus{
+
+    outline:none;
+
+    border-color:#007BFF;
+
+    background:#fff;
+
+    box-shadow:0 0 12px rgba(0,123,255,.25);
+
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.button-group{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:30px;
+
+}
+
+.predict-btn{
+
+    flex:2;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(135deg,#007BFF,#00A8FF);
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.predict-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 20px rgba(0,123,255,.30);
+
+}
+
+.reset-btn{
+
+    flex:1;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    background:#6c757d;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    text-decoration:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.reset-btn:hover{
+
+    background:#495057;
+
+    transform:translateY(-3px);
+
+}
+
+/* ==========================
+   RESULT CARD
+========================== */
+
+.result{
+
+    margin-top:35px;
+
+    background:#ecfff2;
+
+    border-left:8px solid #28a745;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+}
+
+.result h2{
+
+    color:#28a745;
+
+    margin-bottom:15px;
+
+    font-size:32px;
+
+}
+
+.result p{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    color:#222;
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    margin-top:30px;
+
+    text-align:center;
+
+    color:#666;
+
+    font-size:14px;
+
+    line-height:1.7;
+
+}
+
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media(max-width:600px){
+
+.container{
+
+    width:100%;
+
+    padding:25px;
+
+}
+
+.container h1{
+
+    font-size:32px;
+
+}
+
+.button-group{
+
+    flex-direction:column;
+
+}
+
+.predict-btn,
+.reset-btn{
+
+    width:100%;
+
+}
+
+.result p{
+
+    font-size:30px;
+
+}
+
+}
