@@ -141,19 +141,7 @@ Flask Web Application
 Prediction
 ```
 
----
 
-## 📸 Screenshots
-
-### Home Page
-
-> Add a screenshot here after uploading the project.
-
-### Prediction Result
-
-> Add a screenshot here after uploading the project.
-
----
 
 ## 🔮 Future Improvements
 
